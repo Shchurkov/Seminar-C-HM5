@@ -13,6 +13,7 @@ Console.WriteLine();
 float max = array[0];
 float min = array[0];
 
+
 for (int i = 0; i < array.Length; i++)
 {
     
@@ -21,4 +22,5 @@ for (int i = 0; i < array.Length; i++)
     if (array[i] > max)
             max = array[i];
 }
-Console.WriteLine ($"Максимальное число {max}, минимальное число {min}");
+float result = max - min;
+Console.WriteLine ($"Разница между максимальным и минимальным числом {result}");
